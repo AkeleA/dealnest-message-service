@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy>=2.0
+alembic
+pydantic-settings
+celery[redis]
+redis
+pytest
+httpx==0.27.2
+pytest-asyncio
